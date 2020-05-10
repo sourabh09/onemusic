@@ -1,0 +1,83 @@
+
+body{
+	background-color: #fff;
+  height: 100%;
+
+}
+
+.mdl-button{
+  background-color: #EB1537 !important;
+  color: #fff!important; 
+}
+
+header{
+background-color:#000;
+font-size:40px;
+padding:22px;
+margin-bottom:10px;
+text-align: left;
+font-family: 'Bebas Neue', cursive;
+color: #f0002f;
+position: fixed;
+width: 100%;
+}
+.blankdiv{
+  height: 70px;
+}
+
+.fa{
+ color: #f0002f; 
+ padding: 24px;
+ font-size: 30px;
+}
+
+.info{
+  height: 30px;
+}
+
+.dummy{
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#advice{
+  line-height: 1.5;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 18px;
+}
+#advice>span{
+  font-size: 32px;
+  text-align: center;
+}
+
+.social>a{
+  color: #000;
+  cursor: pointer;
+}
+.social{
+  text-align: center;
+  display: none;
+
+}
+.controls{
+  text-align: center;
+}
+.controls>.material-icons{
+  font-size: 70px;
+  padding: 10px;
+  cursor: pointer;
+}
+.music_player{
+  text-align: center;
+
+}
+#output{
+  padding: 10px;
+}
